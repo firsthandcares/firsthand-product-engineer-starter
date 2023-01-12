@@ -1,0 +1,14 @@
+# OSX
+.DS_Store
+
+node_modules/
+
+# logs
+*.log
+npm-debug.log*
+
+.cache
+
+.next
+
+tsconfig.tsbuildinfo
