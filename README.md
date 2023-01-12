@@ -4,9 +4,9 @@
 
 Next js project
 
-## Getting started: Chrome Extension
+## Getting started
 
-Ensure you are using the node version that matches the .nvmrc (ideally setup nvm). Start the extension in dev mode:
+Ensure you are using the node version that matches the .nvmrc (ideally setup nvm). Install packages
 
     npm install --force
 
