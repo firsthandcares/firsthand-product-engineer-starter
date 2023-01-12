@@ -14,11 +14,7 @@ const nextConfig = {
             directives: {
               defaultSrc: "'self'",
               styleSrc: ["'self'", "'unsafe-inline'"],
-              imgSrc: [
-                "'self'",
-                'data:',
-                'https://raw.githubusercontent.com/nextauthjs/next-auth/main/packages/next-auth/provider-logos/google.svg',
-              ],
+              imgSrc: ["'self'", 'data:'],
               fontSrc: ["'self'"],
               scriptSrc: ["'self'", "'unsafe-eval'", "'unsafe-inline'"],
               frameSrc: [],
@@ -28,10 +24,6 @@ const nextConfig = {
           forceHTTPSRedirect: true,
           referrerPolicy: 'same-origin',
           xssProtection: 'block-rendering',
-          frameGuard: [
-            'allow-from',
-            { uri: 'chrome-extension://bgkegjofecmhiafepokkjlgeaiclecal/dashboard.html' },
-          ],
         }),
       },
     ];
